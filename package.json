@@ -1,0 +1,14 @@
+{
+  "name": "checkcall",
+  "version": "1.0.0",
+  "description": "for check foreign call",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "funtik",
+  "license": "ISC",
+  "dependencies": {
+    "ami-io": "^1.2.1"
+  }
+}
