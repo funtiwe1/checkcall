@@ -15,15 +15,11 @@ if (e) process.exit(1);
 let t = fs.createWriteStream('out.log');
 t.write(JSON.stringify(d));
 let events = d.events;
-for(let i=0;i<events.length;i++) {
-console.log(events[i].strategy);
+for(let i=0;i<evemts.length;i++) {
 if (events[i].event=='QueueParams')
 console.log(events[i].event.strategy);
-else if (events[i].event=='QueueMember') {
-console.log(events[i].name+' : '+events[i].location);
 }
-}
-//console.log(d);
+console.log(d);
 console.log('Send QS');
 });
         setTimeout(function(){
